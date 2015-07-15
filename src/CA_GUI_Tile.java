@@ -35,10 +35,12 @@ public class CA_GUI_Tile extends JLabel implements MouseListener {
 		{
 			//setBackground(Color.green);
     		setIcon(new ImageIcon("./assets/wall.png"));
+    		
 		}
 		else
 		{
-			setBackground(Color.black);
+			//setBackground(Color.black);
+    		setIcon(new ImageIcon("./assets/grass.png"));
 		}
         setOpaque(true);
         setBorder(BorderFactory.createLineBorder(Color.black));
@@ -83,11 +85,12 @@ public class CA_GUI_Tile extends JLabel implements MouseListener {
 		{
 			//setBackground(Color.green);
     		setIcon(new ImageIcon("./assets/wall.png"));
+    		
 		}
 		else
 		{
-			setBackground(Color.white);
-			setIcon(null);
+			setBackground(Color.black);
+    		setIcon(new ImageIcon("./assets/grass.png"));
 		}
 		
 		//System.out.println("grid was painted: " + row_id + ", " + column_id);
