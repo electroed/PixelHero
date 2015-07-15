@@ -38,7 +38,7 @@ public class CA_GUI_Tile extends JLabel implements MouseListener {
 		}
 		else
 		{
-			setBackground(Color.white);
+			setBackground(Color.black);
 		}
         setOpaque(true);
         setBorder(BorderFactory.createLineBorder(Color.black));

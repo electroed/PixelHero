@@ -92,7 +92,7 @@ public class CA_GUI extends JPanel
      */
     private static void createAndShowGUI() {
         //Create and set up the window.
-        JFrame frame = new JFrame("PixelHero2: The Sequel");
+        JFrame frame = new JFrame("PixelHero");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          
         //Create and set up the content pane.
